@@ -24,16 +24,4 @@ page 50110 "AI Supported Languages List"
         }
     }
 
-    actions
-    {
-        area(processing)
-        {
-            action(ActionName)
-            {
-                trigger OnAction();
-                begin
-                end;
-            }
-        }
-    }
 }

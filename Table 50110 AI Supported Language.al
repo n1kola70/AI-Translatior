@@ -1,5 +1,6 @@
 table 50110 "AI Supported Language"
 {
+    CaptionML = ENU = 'AI Supported Language';
 
     fields
     {
@@ -21,23 +22,5 @@ table 50110 "AI Supported Language"
         }
     }
     
-    var
-        myInt : Integer;
-
-    trigger OnInsert();
-    begin
-    end;
-
-    trigger OnModify();
-    begin
-    end;
-
-    trigger OnDelete();
-    begin
-    end;
-
-    trigger OnRename();
-    begin
-    end;
 
 }
