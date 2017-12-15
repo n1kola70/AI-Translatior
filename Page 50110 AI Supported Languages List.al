@@ -11,11 +11,11 @@ page 50110 "AI Supported Languages List"
             {
                 field("Code";"Code")
                 {
-                    ApplicationArea =All;
+                    ApplicationArea = All;
                 }
                 field(Description;Description)
                 {
-                    ApplicationArea =All;
+                    ApplicationArea = All;
                 }
             }
         } 
@@ -24,16 +24,4 @@ page 50110 "AI Supported Languages List"
         }
     }
 
-    actions
-    {
-        area(processing)
-        {
-            action(ActionName)
-            {
-                trigger OnAction();
-                begin
-                end;
-            }
-        }
-    }
 }

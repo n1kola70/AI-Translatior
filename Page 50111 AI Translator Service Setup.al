@@ -2,13 +2,13 @@ page 50111 "AI Translator Service Setup"
 {
     PageType = Card;
     SourceTable = "AI Translator Service Setup";
-    InsertAllowed =false;
+    InsertAllowed = false;
     DeleteAllowed = false;
     layout
     {
         area(content)
         {
-            group(GroupName)
+            group(General)
             {
                 field(URL;URL)
                 {
@@ -24,7 +24,7 @@ page 50111 "AI Translator Service Setup"
         {
             Action(AILanguage)
             {
-                CaptionML = ENU = 'AI Supported Language';
+                CaptionML = ENU = 'Supported Languages';
                 RunObject = Page "AI Supported Languages List";
                 Promoted = True;
                 PromotedCategory = Process;
@@ -39,10 +39,13 @@ page 50111 "AI Translator Service Setup"
         }
     }
     
-    var
-        myInt: Integer;
     trigger
     OnOpenPage();
+    begin
+        CreateSetupRecord;
+    end;
+
+    procedure CreateSetupRecord()
     begin
         RESET;
         if not Get then

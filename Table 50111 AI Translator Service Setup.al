@@ -1,6 +1,6 @@
 table 50111 "AI Translator Service Setup"
 {
-
+    CaptionML = ENU = 'Translator service setup';
     fields
     {
         field(1;"Primary Key";Code[10])
@@ -20,23 +20,4 @@ table 50111 "AI Translator Service Setup"
         }
     }
     
-    var
-        myInt : Integer;
-
-    trigger OnInsert();
-    begin
-    end;
-
-    trigger OnModify();
-    begin
-    end;
-
-    trigger OnDelete();
-    begin
-    end;
-
-    trigger OnRename();
-    begin
-    end;
-
 }
