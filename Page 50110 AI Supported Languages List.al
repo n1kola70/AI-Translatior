@@ -11,11 +11,11 @@ page 50110 "AI Supported Languages List"
             {
                 field("Code";"Code")
                 {
-                    ApplicationArea =All;
+                    ApplicationArea = All;
                 }
                 field(Description;Description)
                 {
-                    ApplicationArea =All;
+                    ApplicationArea = All;
                 }
             }
         } 
